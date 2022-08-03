@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // 指针指向了一个值的内存地址
+// & 取地址		* 根据地址取值
 // 指针的声明如下
 // var var_name *var_type
 
