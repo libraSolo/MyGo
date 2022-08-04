@@ -55,3 +55,5 @@ func main() {
 	phone.call()  // test2 Phone1 call {1 小明}
 	phone.call2() // test2 Phone1 call2 {2 小红}
 }
+
+//
