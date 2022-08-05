@@ -17,6 +17,12 @@ func say(s string) {
 }
 
 func main() {
-	go say("world")
+	go say("world") // go启动了一条协程
 	say("hello")
+
+	/*
+		go say("协程1")
+		go say("协程2")
+		fmt.Println("协程3")  //主协程,   当主协程结束, 其他携程结束
+	*/
 }

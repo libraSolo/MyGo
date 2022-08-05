@@ -13,7 +13,8 @@ v := <- ch	// 从 ch 接收数据 并把值赋给 v
 */
 
 // 声明通道
-//ch := make(chan int)
+//ch := make(chan int)		 // 整形无缓存通道
+//ch := make(chan int, 10)		// 整形有缓存通道
 
 func sum(s []int, c chan int) {
 	sum := 0
